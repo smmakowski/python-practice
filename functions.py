@@ -1,10 +1,5 @@
-# test assert functions
-def test(actual, expected, test: str) : # takes function call; args type only in python3
-	if actual == expected :
-		print('Passed test: "' + test + '".')
-	else :
-		print('Failed test: "' + test +'". Expected "' + str(expected) + '" but got "' + str(actual) + '".')
-
+import test
+test = test.test
 # functions to test
 
 def sum(*args) : # args is none or more numbers
